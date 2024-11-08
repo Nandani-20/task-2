@@ -1,0 +1,25 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.message-left {
+  align-self: flex-start; /* Align left side */
+}
+
+.message-right {
+  align-self: flex-end; /* Align right side */
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
